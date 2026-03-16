@@ -3,7 +3,7 @@
 
 <head>
 
-  <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "HairSalon",
@@ -24,29 +24,15 @@
     "@type": "GeoCoordinates",
     "latitude": -33.485,
     "longitude": -70.547
-  },
-  "openingHoursSpecification": [{
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday",
-      "Saturday"
-    ],
-    "opens": "10:00",
-    "closes": "19:00"
-  }],
-  "sameAs": [
-    "https://www.instagram.com/"
-  ]
+  }
 }
 </script>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Kat Nómada | Peluquería en Peñalolén</title>
+<title>Peluquería en Peñalolén | Kat Nómada</title>
+
 <meta name="description" content="Kat Nómada peluquería en Peñalolén. Corte, hidratación capilar, tinturas y diagnóstico profesional. Reserva tu hora por WhatsApp.">
 
 <style>
@@ -73,16 +59,10 @@ letter-spacing:1px;
 .nav a:hover{
 color:#C8A96A;
 }
-@keyframes fadeLogo{
-0%{
-opacity:0;
-transform:translateY(-20px);
-}
 
-100%{
-opacity:1;
-transform:translateY(0);
-}
+@keyframes fadeLogo{
+0%{opacity:0; transform:translateY(-20px);}
+100%{opacity:1; transform:translateY(0);}
 }
 
 body{
@@ -92,13 +72,6 @@ background:#FAFAFA;
 color:#333;
 scroll-behavior:smooth;
 }
-<nav class="nav">
-<a href="#">Inicio</a>
-<a href="#servicios">Servicios</a>
-<a href="#galeria">Galería</a>
-<a href="#precios">Precios</a>
-<a href="#contacto">Ubicación</a>
-</nav>
 
 /* HERO */
 
@@ -246,7 +219,6 @@ transition:0.3s;
 .whatsapp:hover{
 transform:scale(1.1);
 }
-/* FOOTER */
 
 footer{
 background:#000;
@@ -269,6 +241,14 @@ animation:fadeLogo 1.5s ease;
 
 <body>
 
+<nav class="nav">
+<a href="#">Inicio</a>
+<a href="#servicios">Servicios</a>
+<a href="#galeria">Galería</a>
+<a href="#precios">Precios</a>
+<a href="#contacto">Ubicación</a>
+</nav>
+
 <!-- HERO -->
 
 <section class="hero">
@@ -279,7 +259,7 @@ animation:fadeLogo 1.5s ease;
 
 <img src="logo.png" class="logo" alt="Kat Nómada Peluquería Peñalolén">
 
-<p>Peluquería profesional en Peñalolén</p>
+<p>Cortes • Color • Tratamientos capilares</p>
 
 </header>
 
@@ -293,131 +273,74 @@ Reservar hora
 
 <!-- SERVICIOS -->
 
-<section class="section">
+<section class="section" id="servicios">
 
 <h2>Servicios</h2>
 
 <div class="services">
-
-<div class="card">
-<h3>Corte</h3>
-<p>Cortes personalizados según tu estilo.</p>
-</div>
-
-<div class="card">
-<h3>Hidratación profunda</h3>
-<p>Tratamientos para recuperar brillo y suavidad.</p>
-</div>
-
-<div class="card">
-<h3>Baños de color</h3>
-<p>Revitaliza tu color y aporta luminosidad.</p>
-</div>
-
-<div class="card">
-<h3>Retoques de tintura</h3>
-<p>Mantención del color y cobertura de crecimiento.</p>
-</div>
-
-<div class="card">
-<h3>Diagnóstico capilar</h3>
-<p>Análisis profesional del cabello.</p>
-</div>
-
+<div class="card"><h3>Corte</h3><p>Cortes personalizados según tu estilo.</p></div>
+<div class="card"><h3>Hidratación</h3><p>Tratamientos para recuperar brillo.</p></div>
+<div class="card"><h3>Color</h3><p>Revitaliza tu color.</p></div>
+<div class="card"><h3>Tintura</h3><p>Mantención del color.</p></div>
+<div class="card"><h3>Diagnóstico</h3><p>Análisis profesional.</p></div>
 </div>
 
 </section>
 
 <!-- GALERIA -->
 
-<section class="section">
+<section class="section" id="galeria">
 
 <h2>Antes / Después</h2>
 
 <div class="gallery">
-
 <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df">
 <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f">
 <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1">
 <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e">
-
 </div>
 
 </section>
 
 <!-- PRECIOS -->
 
-<section class="section">
+<section class="section" id="precios">
 
 <h2>Precios</h2>
 
 <div class="prices">
-
-<div class="price-row">
-<span>Corte</span>
-<span>$10.000</span>
-</div>
-
-<div class="price-row">
-<span>Hidratación profunda</span>
-<span>$15.000</span>
-</div>
-
-<div class="price-row">
-<span>Baño de color</span>
-<span>$18.000</span>
-</div>
-
-<div class="price-row">
-<span>Retoque de tintura</span>
-<span>$20.000</span>
-</div>
-
-<div class="price-row">
-<span>Diagnóstico capilar</span>
-<span>Gratis</span>
-</div>
-
+<div class="price-row"><span>Corte</span><span>$10.000</span></div>
+<div class="price-row"><span>Hidratación</span><span>$15.000</span></div>
+<div class="price-row"><span>Color</span><span>$18.000</span></div>
+<div class="price-row"><span>Tintura</span><span>$20.000</span></div>
+<div class="price-row"><span>Diagnóstico</span><span>Gratis</span></div>
 </div>
 
 </section>
 
-<!-- UBICACION -->
+<!-- CONTACTO -->
 
-<section class="section contact">
+<section class="section contact" id="contacto">
 
 <h2>Ubicación</h2>
 
 <p>Peñalolén – Santiago</p>
-<p>Atención en local y servicio a domicilio</p>
 
 <div class="map">
-
-<iframe
-width="100%"
-height="300"
-style="border:0"
-loading="lazy"
-allowfullscreen
+<iframe width="100%" height="300" style="border:0" loading="lazy"
 src="https://maps.google.com/maps?q=Peñalolen%20Santiago&t=&z=13&ie=UTF8&iwloc=&output=embed">
 </iframe>
-
 </div>
 
 </section>
 
-<!-- WHATSAPP -->
-
 <a class="whatsapp" href="https://wa.me/56933897877?text=Hola%20quiero%20reservar%20una%20hora%20en%20Kat%20Nómada">
-Reservar
+💬 WhatsApp
 </a>
 
 <footer>
-
 <p>Kat Nómada Peluquería – Peñalolén</p>
-
 </footer>
 
 </body>
-
 </html>
